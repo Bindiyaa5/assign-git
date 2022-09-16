@@ -1,0 +1,21 @@
+Q1) What is a gitignore file and what should it include for a Java project?
+A1) When we initialize or create a new repository, .gitignore file is created by default. It has a few
+file extensions- It is basically telling git which files it should ignore when commit something to 
+our repository in GitHub.
+
+Q2) What does fast-forward in git mean?
+A2) If master has no changes or commits, instead of making a new commit,Git will simply refer or point master 
+to the feature branch's most recent commit  (the HEAD pointer moves to the feature branch's recent commit)
+
+
+Q3) Why should you have different branches?
+A4) Each developer can work individually from other developers by branching out from master - This makes 
+everyone's work easier as they don't have to depend on each other's work all the time and they can avoid the
+hassle of shifting their files back and forth from each other. Finally, everyone can merge all their work to 
+master. Additionally, it makes it easier for Git to merge versions.
+
+
+Q4) In a project how many remote Git repositories do you usually have?
+A4) In a common project, there is only one remote repository, where different project members can create their own
+branches, make changes in them and push their change to those branches and finally merge into master branch after
+ensuring that there are no conflicts.
