@@ -9,7 +9,7 @@ to the feature branch's most recent commit  (the HEAD pointer moves to the featu
 
 
 Q3) Why should you have different branches?
-A4) Each developer can work individually from other developers by branching out from master - This makes 
+A4) Each developer can work seperately from other developers by branching out from master - This makes 
 everyone's work easier as they don't have to depend on each other's work all the time and they can avoid the
 hassle of shifting their files back and forth from each other. Finally, everyone can merge all their work to 
 master. Additionally, it makes it easier for Git to merge versions.
